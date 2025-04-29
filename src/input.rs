@@ -13,14 +13,14 @@ where
     // ensure raw mode is on
     enable_raw_mode().unwrap();
 
-    let base = 110.0_f32;                 // A2 = 110 Hz
-    let step = 2.0_f32.powf(1.0 / 12.0);  // semitone ratio
+    let base = 110.0_f32; // A2 = 110 Hz
+    let step = 2.0_f32.powf(1.0 / 12.0); // semitone ratio
     // let keys = [
     //     'z','x','c','v','b','n','m',',','.','/',
     //     's','d','g','h','j','l',
     // ];
     let keys = [
-        'z', 's', 'x', 'c', 'f', 'v', 'g', 'b', 'n', 'j', 'm', 'k', ',', 'l', '.', '/', '\''
+        'z', 's', 'x', 'c', 'f', 'v', 'g', 'b', 'n', 'j', 'm', 'k', ',', 'l', '.', '/', '\'',
     ];
 
     loop {
